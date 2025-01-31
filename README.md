@@ -1,5 +1,3 @@
-Here’s a comprehensive `README.md` for your NestJS project. It includes a clear description, setup instructions, API documentation, and a backlink to the provided URL.
-
 ---
 
 # NestJS Backend Project
@@ -9,20 +7,19 @@ This is a simple NestJS backend project that provides a `GET /info` endpoint to 
 ---
 
 ## **Table of Contents**
-- [NestJS Backend Project](#nestjs-backend-project)
-  - [**Table of Contents**](#table-of-contents)
-  - [**Description**](#description)
-  - [**Setup Instructions**](#setup-instructions)
-    - [**Prerequisites**](#prerequisites)
-    - [**Steps to Run the Project Locally**](#steps-to-run-the-project-locally)
-  - [**API Documentation**](#api-documentation)
-    - [**Endpoint**](#endpoint)
-    - [**Request/Response Format**](#requestresponse-format)
-      - [**Request**](#request)
-      - [**Response**](#response)
-    - [**Example Usage**](#example-usage)
-  - [**Backlink**](#backlink)
-  - [**License**](#license)
+- [**Table of Contents**](#table-of-contents)
+- [**Description**](#description)
+- [**Setup Instructions**](#setup-instructions)
+  - [**Prerequisites**](#prerequisites)
+  - [**Steps to Run the Project Locally**](#steps-to-run-the-project-locally)
+- [**API Documentation**](#api-documentation)
+  - [**Endpoint**](#endpoint)
+  - [**Request/Response Format**](#requestresponse-format)
+    - [**Request**](#request)
+    - [**Response**](#response)
+  - [**Example Usage**](#example-usage)
+- [**Backlink**](#backlink)
+- [**License**](#license)
 
 ---
 
@@ -30,7 +27,7 @@ This is a simple NestJS backend project that provides a `GET /info` endpoint to 
 This project is a basic NestJS application designed to demonstrate how to create a RESTful API endpoint. The `GET /info` endpoint returns a JSON object with the following fields:
 - `email`: A placeholder email address.
 - `current_datetime`: The current date and time in ISO 8601 format.
-- `link`: A placeholder URL.
+- `github_url`: A Github URL.
 
 This project is ideal for learning NestJS basics, testing API endpoints, and integrating with frontend applications.
 
@@ -46,7 +43,7 @@ This project is ideal for learning NestJS basics, testing API endpoints, and int
 ### **Steps to Run the Project Locally**
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/thamesblanq/zero-backend.git
    cd your-repo-name
    ```
 
@@ -70,7 +67,7 @@ This project is ideal for learning NestJS basics, testing API endpoints, and int
 
 ### **Endpoint**
 - **URL**: `GET /info`
-- **Description**: Returns a JSON object with `email`, `current_datetime`, and `link`.
+- **Description**: Returns a JSON object with `email`, `current_datetime`, and `github_url`.
 
 ### **Request/Response Format**
 #### **Request**
@@ -85,7 +82,7 @@ This project is ideal for learning NestJS basics, testing API endpoints, and int
   {
     "email": "example@example.com",
     "current_datetime": "2025-01-31T12:34:56.789Z",
-    "link": "https://example.com"
+    "github_url": "https://github.com/thamesblanq/zero-backend"
   }
   ```
 
