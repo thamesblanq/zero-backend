@@ -7,7 +7,7 @@ export class InfoService {
     return {
       email: 'obiwulugodswill@gmail.com',
       current_datetime:  new Date().toISOString(),
-      github_url: '',
+      github_url: 'https://github.com/thamesblanq/zero-backend',
     };
   }
 }
